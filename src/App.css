@@ -5,9 +5,18 @@
 ul{
   list-style: none;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+}
+
+label>input{
+  margin-bottom: 20px;
+}
+
+li>span{
+  padding: 10px;
 }
 
 .delete{
